@@ -8,6 +8,11 @@ public class Mensajes {
 
     public Mensajes() {}
 
+    public Mensajes(String mensaje, String autor_mensaje) {
+        this.mensaje = mensaje;
+        this.autor_mensaje = autor_mensaje;
+    }
+
     public Mensajes(String mensaje, String autor_mensaje, String fecha_mensaje) {
         this.mensaje = mensaje;
         this.autor_mensaje = autor_mensaje;
