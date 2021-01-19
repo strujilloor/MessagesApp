@@ -4,9 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Conexion {
+public class ConnectionProvider {
 
-    public Connection get_connection() {
+    public Connection getConnection() {
         Connection connection = null;
         final String DATABASE = "mensajes_app";
         final String URL = "jdbc:mysql://localhost:3306/" + DATABASE;
